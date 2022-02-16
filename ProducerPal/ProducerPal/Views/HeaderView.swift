@@ -25,7 +25,7 @@ struct HeaderView: View {
                 }
                     
             
-          Link("PRODUCER PAL", destination: URL(string: "https://moosecatrecording.com")!)
+          Link("PRODUCER BUDDY", destination: URL(string: "https://moosecatrecording.com")!)
                 .foregroundColor(Color(colorScheme == .dark ? .white : .black))
                 .font(.title)
                 .opacity(0.5)

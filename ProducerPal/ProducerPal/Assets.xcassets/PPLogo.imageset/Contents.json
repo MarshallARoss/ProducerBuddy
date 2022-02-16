@@ -25,7 +25,6 @@
       "scale" : "1x"
     },
     {
-      "filename" : "ProducerPalLaunchLogo.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -50,6 +49,7 @@
       "scale" : "2x"
     },
     {
+      "filename" : "ProducerPalLaunchLogo.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
