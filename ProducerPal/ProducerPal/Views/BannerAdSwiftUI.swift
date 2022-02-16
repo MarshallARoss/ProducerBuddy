@@ -8,6 +8,8 @@
 import SwiftUI
 import GoogleMobileAds
 
+//https://developers.google.com/admob/ios/banner?hl=en-US
+
 struct BannerAdSwiftUI: View {
     @State var height: CGFloat = 0 //Height of ad
     @State var width: CGFloat = 0 //Width of ad
