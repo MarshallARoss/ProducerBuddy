@@ -14,5 +14,6 @@ The results of a one day build challenge! Check it out and follow the band [@Car
 - Designed with iPhone 7 to 13 accounted for
 - Use in any device orientation
 - Custom Button Styles
+- Google AdMob
 
 <img width="300" alt="Producer Pal Screenshot" src="https://user-images.githubusercontent.com/20109435/154178446-8070c236-9409-4590-a252-8dbcf87529af.PNG">
