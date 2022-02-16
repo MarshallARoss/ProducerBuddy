@@ -19,6 +19,8 @@
 		ABB22E6127BC2D1E00496A51 /* tada_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E6027BC2D1E00496A51 /* tada_sound.mp3 */; };
 		ABB22E6327BC2D4600496A51 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E6227BC2D4600496A51 /* badum.mp3 */; };
 		ABB22E6B27BC747900496A51 /* MotiontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6A27BC747900496A51 /* MotiontManager.swift */; };
+		ABB22E6E27BC8C4200496A51 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6D27BC8C4100496A51 /* ButtonStyles.swift */; };
+		ABB22E7027BC8C8100496A51 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6F27BC8C8100496A51 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		ABB22E6827BC6E0E00496A51 /* ProducerPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProducerPal.entitlements; sourceTree = "<group>"; };
 		ABB22E6927BC6F3E00496A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ABB22E6A27BC747900496A51 /* MotiontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotiontManager.swift; sourceTree = "<group>"; };
+		ABB22E6D27BC8C4100496A51 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		ABB22E6F27BC8C8100496A51 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +126,9 @@
 		ABB22E6427BC2F7B00496A51 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ABB22E6C27BC8C3000496A51 /* ButtonStyles */,
 				ABB22E4627BC1DCB00496A51 /* MainAppView.swift */,
+				ABB22E6F27BC8C8100496A51 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +139,14 @@
 				ABB22E5527BC1E2100496A51 /* ProducerPalViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ABB22E6C27BC8C3000496A51 /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				ABB22E6D27BC8C4100496A51 /* ButtonStyles.swift */,
+			);
+			path = ButtonStyles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +225,8 @@
 				ABB22E5427BC1DE900496A51 /* HapticsManager.swift in Sources */,
 				ABB22E4727BC1DCB00496A51 /* MainAppView.swift in Sources */,
 				ABB22E5627BC1E2100496A51 /* ProducerPalViewModel.swift in Sources */,
+				ABB22E6E27BC8C4200496A51 /* ButtonStyles.swift in Sources */,
+				ABB22E7027BC8C8100496A51 /* HeaderView.swift in Sources */,
 				ABB22E6B27BC747900496A51 /* MotiontManager.swift in Sources */,
 				ABB22E4527BC1DCB00496A51 /* ProducerPalApp.swift in Sources */,
 				ABB22E5827BC1E3A00496A51 /* ButtonCellModel.swift in Sources */,

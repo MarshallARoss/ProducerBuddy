@@ -23,7 +23,7 @@ struct ButtonCell: Hashable {
            
             ButtonCell(title: "Let's Try That Again", soundOption: .tada, color: Color.green),
        
-            ButtonCell(title: "This Time With More Energy", soundOption: .tada, color: Color.pink),
+            ButtonCell(title: "This Time With More Energy", soundOption: .badum, color: Color.pink),
             
             ButtonCell(title: "Can you tune up?", soundOption: .tada, color: Color.purple),
             

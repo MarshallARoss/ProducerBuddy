@@ -9,6 +9,8 @@ import SwiftUI
 import AVFoundation
 
 struct MainAppView: View {
+    
+    @Environment(\.colorScheme) var colorScheme
         
     @ObservedObject var motion = MotionManager()
     
@@ -21,9 +23,15 @@ struct MainAppView: View {
     var body: some View {
         
         ZStack {
-            
-           // LinearGradient(Color.darkStart, Color.darkEnd)
-            Color.offWhite.ignoresSafeArea()
+                        
+            if colorScheme == .dark {
+                    Color.darkEnd
+                    .edgesIgnoringSafeArea(.all)
+            } else {
+                    Color.offWhite
+                    .edgesIgnoringSafeArea(.all)
+                }
+                    
             
             VStack {
                 
@@ -45,15 +53,21 @@ struct MainAppView: View {
                 }
                 
                 ZStack(alignment: .bottom) {
-                    Color.white
-                        .ignoresSafeArea()
+                    if colorScheme == .dark {
+                            Color.darkEnd
+                            .edgesIgnoringSafeArea(.all)
+                    } else {
+                            Color.offWhite
+                            .edgesIgnoringSafeArea(.all)
+                        }
                     
                 Link("Your Ad Here", destination: URL(string: "https://www.youtube.com/watch?v=et0I1y0EuoU")!)
                     
                 }
-                .frame(maxHeight: 30)
+                .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
+                .shadow(color: colorScheme == .dark ? Color.black.opacity(0.7) : Color.white.opacity(0.7), radius: 10, x: 10, y: 10)
+                .frame(minHeight: 20, maxHeight: 30)
                
-
             }
         }
     }
@@ -86,79 +100,6 @@ struct ButtonCellView: View {
     }
 }
 
-//THE LOOK OF EACH BUTTONSTYLE
-struct SimpleButtonStyle: ButtonStyle {
-    
-    var buttonColor: Color
-    
-    func makeBody(configuration: Self.Configuration) -> some View {
-        
-        ZStack{
-            
-            Group{
-                
-                if configuration.isPressed {
-                    Circle()
-                        .fill(buttonColor)
-                        .overlay(
-                                Circle()
-                                    .stroke(Color.gray, lineWidth: 4)
-                                    .blur(radius: 4)
-                                    .offset(x: 2, y: 2)
-                                    .mask(Circle().fill(LinearGradient(buttonColor, Color.clear)))
-                            )
-                            .overlay(
-                                Circle()
-                                    .stroke(Color.white, lineWidth: 8)
-                                    .blur(radius: 4)
-                                    .offset(x: -2, y: -2)
-                                    .mask(Circle().fill(LinearGradient(Color.clear, buttonColor)))
-                            )
-                } else {
-                    Circle()
-                        .fill(buttonColor)
-                        .overlay(Circle().stroke(LinearGradient(buttonColor, Color.offWhite), lineWidth: 4))
-                      //  .overlay(Circle().stroke(buttonColor, lineWidth: 4))
-                        .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
-                        .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
-                }
-            }
-            
-            configuration.label
-                .foregroundColor(Color.white)
-                .lineLimit(3)
-                .padding(.horizontal, 30)
-            
-        }
-        .frame(height: 150)
-    }
-    
-}
-
-
-//THE PRODUCER PAL HEADER
-struct HeaderView: View {
-    var body: some View {
-        ZStack{
-            
-            Color.offWhite
-                .edgesIgnoringSafeArea(.all)
-            
-            Text("PRODUCER PAL")
-                .foregroundColor(Color(.black))
-                .font(.title)
-                .fontWeight(.bold)
-                .padding(.top)
-                .opacity(0.5)
-            
-        }
-        .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
-        .shadow(color: Color.white.opacity(0.7), radius: 10, x: -5, y: -5)
-        .frame(minHeight: 20, maxHeight: 30)
-    }
-}
-
-
 
 struct MainAppView_Previews: PreviewProvider {
     static var previews: some View {
@@ -167,7 +108,13 @@ struct MainAppView_Previews: PreviewProvider {
                 .previewDevice("iPhone 12 Pro")
                 .preferredColorScheme(.light)
 .previewInterfaceOrientation(.portrait)
+            
             MainAppView()
+                .previewDevice("iPhone 12 Pro")
+                .preferredColorScheme(.dark)
+.previewInterfaceOrientation(.portrait)
+            MainAppView()
+                .preferredColorScheme(.dark)
                 .previewDevice("iPhone 8")
 .previewInterfaceOrientation(.portrait)
             MainAppView()
