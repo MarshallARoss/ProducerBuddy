@@ -24,7 +24,7 @@
 		ABB22E7027BC8C8100496A51 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6F27BC8C8100496A51 /* HeaderView.swift */; };
 		ABB95DEF27BCA75E00FFF863 /* BannerAdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB95DEE27BCA75E00FFF863 /* BannerAdVC.swift */; };
 		ABB95DF127BCA85C00FFF863 /* BannerAdSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB95DF027BCA85C00FFF863 /* BannerAdSwiftUI.swift */; };
-		ABB95DF327BCB13A00FFF863 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB95DF227BCB13A00FFF863 /* Secrets.swift */; };
+		ABB95DF727BCB39100FFF863 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB95DF627BCB39100FFF863 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +50,7 @@
 		ABB22E6F27BC8C8100496A51 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		ABB95DEE27BCA75E00FFF863 /* BannerAdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdVC.swift; sourceTree = "<group>"; };
 		ABB95DF027BCA85C00FFF863 /* BannerAdSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdSwiftUI.swift; sourceTree = "<group>"; };
-		ABB95DF227BCB13A00FFF863 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		ABB95DF627BCB39100FFF863 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 				ABB22E6527BC2FA500496A51 /* ViewModels */,
 				ABB22E5F27BC2D1200496A51 /* SampleSounds */,
 				ABB22E5B27BC1F0A00496A51 /* Constants.swift */,
-				ABB95DF227BCB13A00FFF863 /* Secrets.swift */,
+				ABB95DF627BCB39100FFF863 /* Secrets.swift */,
 				ABB22E4827BC1DCE00496A51 /* Assets.xcassets */,
 				ABB22E4A27BC1DCE00496A51 /* Preview Content */,
 			);
@@ -309,7 +309,7 @@
 				ABB22E6B27BC747900496A51 /* MotiontManager.swift in Sources */,
 				ABB22E4527BC1DCB00496A51 /* ProducerPalApp.swift in Sources */,
 				ABB22E5827BC1E3A00496A51 /* ButtonCellModel.swift in Sources */,
-				ABB95DF327BCB13A00FFF863 /* Secrets.swift in Sources */,
+				ABB95DF727BCB39100FFF863 /* Secrets.swift in Sources */,
 				ABB22E5C27BC1F0A00496A51 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
