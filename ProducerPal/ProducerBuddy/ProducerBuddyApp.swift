@@ -11,7 +11,7 @@ import GoogleMobileAds
 
 
 @main
-struct ProducerPalApp: App {
+struct ProducerBuddyApp: App {
     
     init() {
            if ATTrackingManager.trackingAuthorizationStatus == .notDetermined {
@@ -26,7 +26,6 @@ struct ProducerPalApp: App {
                }
            }
     }
-    
     
     var body: some Scene {
         WindowGroup {

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		32439AACF5AA1F07611828E7 /* Pods_Producer_Pal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618D624E40AD8623EBEFF87F /* Pods_Producer_Pal.framework */; };
-		ABB22E4527BC1DCB00496A51 /* ProducerPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E4427BC1DCB00496A51 /* ProducerPalApp.swift */; };
+		ABB22E4527BC1DCB00496A51 /* ProducerBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E4427BC1DCB00496A51 /* ProducerBuddyApp.swift */; };
 		ABB22E4727BC1DCB00496A51 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E4627BC1DCB00496A51 /* MainAppView.swift */; };
 		ABB22E4927BC1DCE00496A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E4827BC1DCE00496A51 /* Assets.xcassets */; };
 		ABB22E4C27BC1DCE00496A51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E4B27BC1DCE00496A51 /* Preview Assets.xcassets */; };
@@ -31,8 +31,8 @@
 		13016B3B6C278A67006856DE /* Pods-Producer Pal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Producer Pal.debug.xcconfig"; path = "Target Support Files/Pods-Producer Pal/Pods-Producer Pal.debug.xcconfig"; sourceTree = "<group>"; };
 		618D624E40AD8623EBEFF87F /* Pods_Producer_Pal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Producer_Pal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5990C593A67FF019D3DDF15 /* Pods-Producer Pal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Producer Pal.release.xcconfig"; path = "Target Support Files/Pods-Producer Pal/Pods-Producer Pal.release.xcconfig"; sourceTree = "<group>"; };
-		ABB22E4127BC1DCB00496A51 /* Producer Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Producer Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABB22E4427BC1DCB00496A51 /* ProducerPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducerPalApp.swift; sourceTree = "<group>"; };
+		ABB22E4127BC1DCB00496A51 /* Producer Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Producer Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB22E4427BC1DCB00496A51 /* ProducerBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducerBuddyApp.swift; sourceTree = "<group>"; };
 		ABB22E4627BC1DCB00496A51 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
 		ABB22E4827BC1DCE00496A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB22E4B27BC1DCE00496A51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		ABB22E3827BC1DCB00496A51 = {
 			isa = PBXGroup;
 			children = (
-				ABB22E4327BC1DCB00496A51 /* ProducerPal */,
+				ABB22E4327BC1DCB00496A51 /* ProducerBuddy */,
 				ABB22E4227BC1DCB00496A51 /* Products */,
 				02327A23FFD95AE06C04613C /* Pods */,
 				482DF479E7B2CC7FEFC23037 /* Frameworks */,
@@ -95,17 +95,17 @@
 		ABB22E4227BC1DCB00496A51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABB22E4127BC1DCB00496A51 /* Producer Pal.app */,
+				ABB22E4127BC1DCB00496A51 /* Producer Buddy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABB22E4327BC1DCB00496A51 /* ProducerPal */ = {
+		ABB22E4327BC1DCB00496A51 /* ProducerBuddy */ = {
 			isa = PBXGroup;
 			children = (
 				ABB22E6927BC6F3E00496A51 /* Info.plist */,
 				ABB22E6827BC6E0E00496A51 /* ProducerPal.entitlements */,
-				ABB22E4427BC1DCB00496A51 /* ProducerPalApp.swift */,
+				ABB22E4427BC1DCB00496A51 /* ProducerBuddyApp.swift */,
 				ABB22E6427BC2F7B00496A51 /* Views */,
 				ABB22E5A27BC1E5A00496A51 /* Models */,
 				ABB22E5927BC1E4E00496A51 /* Managers */,
@@ -116,7 +116,7 @@
 				ABB22E4827BC1DCE00496A51 /* Assets.xcassets */,
 				ABB22E4A27BC1DCE00496A51 /* Preview Content */,
 			);
-			path = ProducerPal;
+			path = ProducerBuddy;
 			sourceTree = "<group>";
 		};
 		ABB22E4A27BC1DCE00496A51 /* Preview Content */ = {
@@ -185,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABB22E4027BC1DCB00496A51 /* Producer Pal */ = {
+		ABB22E4027BC1DCB00496A51 /* Producer Buddy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABB22E4F27BC1DCE00496A51 /* Build configuration list for PBXNativeTarget "Producer Pal" */;
+			buildConfigurationList = ABB22E4F27BC1DCE00496A51 /* Build configuration list for PBXNativeTarget "Producer Buddy" */;
 			buildPhases = (
 				08421EE09EABF1A7FA8CE5F3 /* [CP] Check Pods Manifest.lock */,
 				ABB22E3D27BC1DCB00496A51 /* Sources */,
@@ -199,9 +199,9 @@
 			);
 			dependencies = (
 			);
-			name = "Producer Pal";
+			name = "Producer Buddy";
 			productName = ProducerPal;
-			productReference = ABB22E4127BC1DCB00496A51 /* Producer Pal.app */;
+			productReference = ABB22E4127BC1DCB00496A51 /* Producer Buddy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABB22E3C27BC1DCB00496A51 /* Build configuration list for PBXProject "Producer Pal" */;
+			buildConfigurationList = ABB22E3C27BC1DCB00496A51 /* Build configuration list for PBXProject "Producer Buddy" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,7 +232,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABB22E4027BC1DCB00496A51 /* Producer Pal */,
+				ABB22E4027BC1DCB00496A51 /* Producer Buddy */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 				ABB95DF127BCA85C00FFF863 /* BannerAdSwiftUI.swift in Sources */,
 				ABB22E7027BC8C8100496A51 /* HeaderView.swift in Sources */,
 				ABB22E6B27BC747900496A51 /* MotiontManager.swift in Sources */,
-				ABB22E4527BC1DCB00496A51 /* ProducerPalApp.swift in Sources */,
+				ABB22E4527BC1DCB00496A51 /* ProducerBuddyApp.swift in Sources */,
 				ABB22E5827BC1E3A00496A51 /* ButtonCellModel.swift in Sources */,
 				ABB95DF727BCB39100FFF863 /* Secrets.swift in Sources */,
 				ABB22E5C27BC1F0A00496A51 /* Constants.swift in Sources */,
@@ -450,6 +450,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProducerPal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Producer Buddy";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -462,8 +463,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MarshallARoss.ProducerPal;
-				PRODUCT_NAME = "Producer Pal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarshallARoss.ProducerBuddy;
+				PRODUCT_NAME = "Producer Buddy";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -487,6 +488,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProducerPal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Producer Buddy";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -499,8 +501,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MarshallARoss.ProducerPal;
-				PRODUCT_NAME = "Producer Pal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarshallARoss.ProducerBuddy;
+				PRODUCT_NAME = "Producer Buddy";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -512,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABB22E3C27BC1DCB00496A51 /* Build configuration list for PBXProject "Producer Pal" */ = {
+		ABB22E3C27BC1DCB00496A51 /* Build configuration list for PBXProject "Producer Buddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABB22E4D27BC1DCE00496A51 /* Debug */,
@@ -521,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABB22E4F27BC1DCE00496A51 /* Build configuration list for PBXNativeTarget "Producer Pal" */ = {
+		ABB22E4F27BC1DCE00496A51 /* Build configuration list for PBXNativeTarget "Producer Buddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABB22E5027BC1DCE00496A51 /* Debug */,
