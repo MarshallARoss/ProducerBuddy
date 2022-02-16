@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
+import UIKit
 import AVFoundation
+import GoogleMobileAds
 
 struct MainAppView: View {
     
@@ -31,7 +33,6 @@ struct MainAppView: View {
                     Color.offWhite
                     .edgesIgnoringSafeArea(.all)
                 }
-                    
             
             VStack {
                 
@@ -52,23 +53,10 @@ struct MainAppView: View {
                     .padding()
                 }
                 
-                ZStack(alignment: .bottom) {
-                    if colorScheme == .dark {
-                            Color.darkEnd
-                            .edgesIgnoringSafeArea(.all)
-                    } else {
-                            Color.offWhite
-                            .edgesIgnoringSafeArea(.all)
-                        }
-                    
-                Link("Your Ad Here", destination: URL(string: "https://www.youtube.com/watch?v=et0I1y0EuoU")!)
-                    
-                }
-                .shadow(color: Color.black.opacity(0.2), radius: 10, x: 10, y: 10)
-                .shadow(color: colorScheme == .dark ? Color.black.opacity(0.7) : Color.white.opacity(0.7), radius: 10, x: 10, y: 10)
-                .frame(minHeight: 20, maxHeight: 30)
-               
             }
+            BannerAdSwiftUI(adPosition: .bottom, adUnitId: Secrets.testID)
+            // .frame(maxHeight: 60)
+            
         }
     }
 }
@@ -96,7 +84,6 @@ struct ButtonCellView: View {
              }
              .buttonStyle(SimpleButtonStyle(buttonColor: button.color))
          }
-
     }
 }
 
@@ -107,7 +94,7 @@ struct MainAppView_Previews: PreviewProvider {
             MainAppView()
                 .previewDevice("iPhone 12 Pro")
                 .preferredColorScheme(.light)
-.previewInterfaceOrientation(.portrait)
+.previewInterfaceOrientation(.landscapeLeft)
             
             MainAppView()
                 .previewDevice("iPhone 12 Pro")

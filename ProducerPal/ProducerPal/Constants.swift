@@ -19,3 +19,4 @@ extension LinearGradient {
         self.init(gradient: Gradient(colors: colors), startPoint: .topLeading, endPoint: .bottomTrailing)
     }
 }
+

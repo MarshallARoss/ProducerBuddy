@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32439AACF5AA1F07611828E7 /* Pods_Producer_Pal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618D624E40AD8623EBEFF87F /* Pods_Producer_Pal.framework */; };
 		ABB22E4527BC1DCB00496A51 /* ProducerPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E4427BC1DCB00496A51 /* ProducerPalApp.swift */; };
 		ABB22E4727BC1DCB00496A51 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E4627BC1DCB00496A51 /* MainAppView.swift */; };
 		ABB22E4927BC1DCE00496A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E4827BC1DCE00496A51 /* Assets.xcassets */; };
@@ -21,9 +22,15 @@
 		ABB22E6B27BC747900496A51 /* MotiontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6A27BC747900496A51 /* MotiontManager.swift */; };
 		ABB22E6E27BC8C4200496A51 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6D27BC8C4100496A51 /* ButtonStyles.swift */; };
 		ABB22E7027BC8C8100496A51 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6F27BC8C8100496A51 /* HeaderView.swift */; };
+		ABB95DEF27BCA75E00FFF863 /* BannerAdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB95DEE27BCA75E00FFF863 /* BannerAdVC.swift */; };
+		ABB95DF127BCA85C00FFF863 /* BannerAdSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB95DF027BCA85C00FFF863 /* BannerAdSwiftUI.swift */; };
+		ABB95DF327BCB13A00FFF863 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB95DF227BCB13A00FFF863 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13016B3B6C278A67006856DE /* Pods-Producer Pal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Producer Pal.debug.xcconfig"; path = "Target Support Files/Pods-Producer Pal/Pods-Producer Pal.debug.xcconfig"; sourceTree = "<group>"; };
+		618D624E40AD8623EBEFF87F /* Pods_Producer_Pal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Producer_Pal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5990C593A67FF019D3DDF15 /* Pods-Producer Pal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Producer Pal.release.xcconfig"; path = "Target Support Files/Pods-Producer Pal/Pods-Producer Pal.release.xcconfig"; sourceTree = "<group>"; };
 		ABB22E4127BC1DCB00496A51 /* Producer Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Producer Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB22E4427BC1DCB00496A51 /* ProducerPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducerPalApp.swift; sourceTree = "<group>"; };
 		ABB22E4627BC1DCB00496A51 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
@@ -41,6 +48,9 @@
 		ABB22E6A27BC747900496A51 /* MotiontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotiontManager.swift; sourceTree = "<group>"; };
 		ABB22E6D27BC8C4100496A51 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		ABB22E6F27BC8C8100496A51 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		ABB95DEE27BCA75E00FFF863 /* BannerAdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdVC.swift; sourceTree = "<group>"; };
+		ABB95DF027BCA85C00FFF863 /* BannerAdSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdSwiftUI.swift; sourceTree = "<group>"; };
+		ABB95DF227BCB13A00FFF863 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,17 +58,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32439AACF5AA1F07611828E7 /* Pods_Producer_Pal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02327A23FFD95AE06C04613C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13016B3B6C278A67006856DE /* Pods-Producer Pal.debug.xcconfig */,
+				A5990C593A67FF019D3DDF15 /* Pods-Producer Pal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		482DF479E7B2CC7FEFC23037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				618D624E40AD8623EBEFF87F /* Pods_Producer_Pal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABB22E3827BC1DCB00496A51 = {
 			isa = PBXGroup;
 			children = (
 				ABB22E4327BC1DCB00496A51 /* ProducerPal */,
 				ABB22E4227BC1DCB00496A51 /* Products */,
+				02327A23FFD95AE06C04613C /* Pods */,
+				482DF479E7B2CC7FEFC23037 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +112,7 @@
 				ABB22E6527BC2FA500496A51 /* ViewModels */,
 				ABB22E5F27BC2D1200496A51 /* SampleSounds */,
 				ABB22E5B27BC1F0A00496A51 /* Constants.swift */,
+				ABB95DF227BCB13A00FFF863 /* Secrets.swift */,
 				ABB22E4827BC1DCE00496A51 /* Assets.xcassets */,
 				ABB22E4A27BC1DCE00496A51 /* Preview Content */,
 			);
@@ -126,9 +157,11 @@
 		ABB22E6427BC2F7B00496A51 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ABB22E6F27BC8C8100496A51 /* HeaderView.swift */,
 				ABB22E6C27BC8C3000496A51 /* ButtonStyles */,
 				ABB22E4627BC1DCB00496A51 /* MainAppView.swift */,
-				ABB22E6F27BC8C8100496A51 /* HeaderView.swift */,
+				ABB95DEE27BCA75E00FFF863 /* BannerAdVC.swift */,
+				ABB95DF027BCA85C00FFF863 /* BannerAdSwiftUI.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB22E4F27BC1DCE00496A51 /* Build configuration list for PBXNativeTarget "Producer Pal" */;
 			buildPhases = (
+				08421EE09EABF1A7FA8CE5F3 /* [CP] Check Pods Manifest.lock */,
 				ABB22E3D27BC1DCB00496A51 /* Sources */,
 				ABB22E3E27BC1DCB00496A51 /* Frameworks */,
 				ABB22E3F27BC1DCB00496A51 /* Resources */,
+				C37D529CD384AF1C26D0195E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,20 +251,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08421EE09EABF1A7FA8CE5F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Producer Pal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37D529CD384AF1C26D0195E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Producer Pal/Pods-Producer Pal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Producer Pal/Pods-Producer Pal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Producer Pal/Pods-Producer Pal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABB22E3D27BC1DCB00496A51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB95DEF27BCA75E00FFF863 /* BannerAdVC.swift in Sources */,
 				ABB22E5E27BC219F00496A51 /* SoundManager.swift in Sources */,
 				ABB22E5427BC1DE900496A51 /* HapticsManager.swift in Sources */,
 				ABB22E4727BC1DCB00496A51 /* MainAppView.swift in Sources */,
 				ABB22E5627BC1E2100496A51 /* ProducerPalViewModel.swift in Sources */,
 				ABB22E6E27BC8C4200496A51 /* ButtonStyles.swift in Sources */,
+				ABB95DF127BCA85C00FFF863 /* BannerAdSwiftUI.swift in Sources */,
 				ABB22E7027BC8C8100496A51 /* HeaderView.swift in Sources */,
 				ABB22E6B27BC747900496A51 /* MotiontManager.swift in Sources */,
 				ABB22E4527BC1DCB00496A51 /* ProducerPalApp.swift in Sources */,
 				ABB22E5827BC1E3A00496A51 /* ButtonCellModel.swift in Sources */,
+				ABB95DF327BCB13A00FFF863 /* Secrets.swift in Sources */,
 				ABB22E5C27BC1F0A00496A51 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +437,7 @@
 		};
 		ABB22E5027BC1DCE00496A51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13016B3B6C278A67006856DE /* Pods-Producer Pal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,6 +474,7 @@
 		};
 		ABB22E5127BC1DCE00496A51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5990C593A67FF019D3DDF15 /* Pods-Producer Pal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
