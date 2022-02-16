@@ -10,6 +10,8 @@ import AVKit
 
 class SoundManager: ObservableObject {
     
+    //https://www.advancedswift.com/play-a-sound-in-swift/
+    
     static let shared = SoundManager()
     
     var player: AVAudioPlayer?
@@ -18,18 +20,23 @@ class SoundManager: ObservableObject {
         
         guard let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else {return}
         
+        
         do {
+            try AVAudioSession.sharedInstance().setCategory(.playback)
+            
+            try AVAudioSession.sharedInstance().setActive(true)
             
             player = try AVAudioPlayer(contentsOf: url)
+            
             DispatchQueue.global().async {
                 self.player?.play()
             }
             
-        } catch let error {
-            print("Error playing sound. \(error.localizedDescription)")
+        } catch {
+            //Error
+            print(error.localizedDescription)
         }
     }
-    
 }
 
 
