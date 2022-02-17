@@ -5,6 +5,8 @@
 //  Created by Marshall  on 2/15/22.
 //
 
+/*
+
 import UIKit
 import GoogleMobileAds
 
@@ -54,12 +56,20 @@ class BannerAdVC: UIViewController {
     }
 
     func loadBannerAd() {
+       
         let frame = view.frame.inset(by: view.safeAreaInsets)
         let viewWidth = frame.size.width
-
+        
         //Updates the BannerView size relative to the current safe area of device (This creates the adaptive banner)
         bannerView.adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(viewWidth)
+        
+        let request = GADRequest()
+        
+        request.scene = self.view.window?.windowScene
 
-        bannerView.load(GADRequest())
+        bannerView.load(request)
     }
 }
+
+
+*/

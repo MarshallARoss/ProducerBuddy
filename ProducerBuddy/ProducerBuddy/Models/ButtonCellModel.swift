@@ -19,7 +19,7 @@ struct ButtonCell: Hashable {
         
         let buttonArray = [
             
-            ButtonCell(title: "Good Take", soundOption: .tada, color: Color.blue),
+            ButtonCell(title: "Sounds Great! Let's Try That Again", soundOption: .ThatWasGreatLetsTryThatAgain, color: Color.blue),
            
             ButtonCell(title: "Let's Try That Again", soundOption: .tada, color: Color.green),
        
@@ -29,7 +29,7 @@ struct ButtonCell: Hashable {
             
             ButtonCell(title: "Cell Phone Off Yo!", soundOption: .tada, color: Color.orange),
             
-            ButtonCell(title: "how long can one of these phrases be before it gets cutoff?", soundOption: .tada, color: Color.cyan)
+            ButtonCell(title: "how long can one of these phrases be before it gets cutoff?", soundOption: .tada, color: Color.yellow)
         ]
         
         return buttonArray

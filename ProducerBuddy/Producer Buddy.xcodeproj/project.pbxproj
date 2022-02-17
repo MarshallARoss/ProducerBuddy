@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07E04FAA692EEFFEED7257D1 /* Pods_Producer_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5567F7D0F5D608367B4D3801 /* Pods_Producer_Buddy.framework */; };
+		AB945DA527BEF5F300DF0ABC /* tada2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB945DA427BEF5F300DF0ABC /* tada2.mp3 */; };
+		AB945DAF27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain06.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB945DA927BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain06.mp3 */; };
+		AB945DB027BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB945DAA27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain01.mp3 */; };
+		AB945DB127BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB945DAB27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain02.mp3 */; };
+		AB945DB227BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain05.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB945DAC27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain05.mp3 */; };
+		AB945DB327BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB945DAD27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain03.mp3 */; };
+		AB945DB427BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain04.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB945DAE27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain04.mp3 */; };
 		ABB22E4527BC1DCB00496A51 /* ProducerBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E4427BC1DCB00496A51 /* ProducerBuddyApp.swift */; };
 		ABB22E4727BC1DCB00496A51 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E4627BC1DCB00496A51 /* MainAppView.swift */; };
 		ABB22E4927BC1DCE00496A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E4827BC1DCE00496A51 /* Assets.xcassets */; };
@@ -17,7 +23,7 @@
 		ABB22E5827BC1E3A00496A51 /* ButtonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E5727BC1E3A00496A51 /* ButtonCellModel.swift */; };
 		ABB22E5C27BC1F0A00496A51 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E5B27BC1F0A00496A51 /* Constants.swift */; };
 		ABB22E5E27BC219F00496A51 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E5D27BC219F00496A51 /* SoundManager.swift */; };
-		ABB22E6127BC2D1E00496A51 /* tada_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E6027BC2D1E00496A51 /* tada_sound.mp3 */; };
+		ABB22E6127BC2D1E00496A51 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E6027BC2D1E00496A51 /* tada.mp3 */; };
 		ABB22E6327BC2D4600496A51 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABB22E6227BC2D4600496A51 /* badum.mp3 */; };
 		ABB22E6B27BC747900496A51 /* MotiontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6A27BC747900496A51 /* MotiontManager.swift */; };
 		ABB22E6E27BC8C4200496A51 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB22E6D27BC8C4100496A51 /* ButtonStyles.swift */; };
@@ -34,6 +40,14 @@
 		5567F7D0F5D608367B4D3801 /* Pods_Producer_Buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Producer_Buddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5990C593A67FF019D3DDF15 /* Pods-Producer Pal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Producer Pal.release.xcconfig"; path = "Target Support Files/Pods-Producer Pal/Pods-Producer Pal.release.xcconfig"; sourceTree = "<group>"; };
 		AB57D2A927BD9A27004CFF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB945DA427BEF5F300DF0ABC /* tada2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada2.mp3; sourceTree = "<group>"; };
+		AB945DA927BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain06.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ThatWasGreatLetsTryThatAgain06.mp3; path = "../../../../../Imported Sounds/ThatWasGreatLetsTryThatAgain/ThatWasGreatLetsTryThatAgain06.mp3"; sourceTree = "<group>"; };
+		AB945DAA27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ThatWasGreatLetsTryThatAgain01.mp3; path = "../../../../../Imported Sounds/ThatWasGreatLetsTryThatAgain/ThatWasGreatLetsTryThatAgain01.mp3"; sourceTree = "<group>"; };
+		AB945DAB27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ThatWasGreatLetsTryThatAgain02.mp3; path = "../../../../../Imported Sounds/ThatWasGreatLetsTryThatAgain/ThatWasGreatLetsTryThatAgain02.mp3"; sourceTree = "<group>"; };
+		AB945DAC27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain05.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ThatWasGreatLetsTryThatAgain05.mp3; path = "../../../../../Imported Sounds/ThatWasGreatLetsTryThatAgain/ThatWasGreatLetsTryThatAgain05.mp3"; sourceTree = "<group>"; };
+		AB945DAD27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ThatWasGreatLetsTryThatAgain03.mp3; path = "../../../../../Imported Sounds/ThatWasGreatLetsTryThatAgain/ThatWasGreatLetsTryThatAgain03.mp3"; sourceTree = "<group>"; };
+		AB945DAE27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain04.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ThatWasGreatLetsTryThatAgain04.mp3; path = "../../../../../Imported Sounds/ThatWasGreatLetsTryThatAgain/ThatWasGreatLetsTryThatAgain04.mp3"; sourceTree = "<group>"; };
+		AB9B4FE027BEEF5B00D627E1 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
 		ABB22E4127BC1DCB00496A51 /* Producer Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Producer Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB22E4427BC1DCB00496A51 /* ProducerBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducerBuddyApp.swift; sourceTree = "<group>"; };
 		ABB22E4627BC1DCB00496A51 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
@@ -44,7 +58,7 @@
 		ABB22E5727BC1E3A00496A51 /* ButtonCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCellModel.swift; sourceTree = "<group>"; };
 		ABB22E5B27BC1F0A00496A51 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ABB22E5D27BC219F00496A51 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
-		ABB22E6027BC2D1E00496A51 /* tada_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada_sound.mp3; sourceTree = "<group>"; };
+		ABB22E6027BC2D1E00496A51 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		ABB22E6227BC2D4600496A51 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		ABB22E6827BC6E0E00496A51 /* ProducerPal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProducerPal.entitlements; sourceTree = "<group>"; };
 		ABB22E6A27BC747900496A51 /* MotiontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotiontManager.swift; sourceTree = "<group>"; };
@@ -60,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07E04FAA692EEFFEED7257D1 /* Pods_Producer_Buddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +94,40 @@
 		482DF479E7B2CC7FEFC23037 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB9B4FE027BEEF5B00D627E1 /* GoogleMobileAds.xcframework */,
 				5567F7D0F5D608367B4D3801 /* Pods_Producer_Buddy.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB945DA627BEF94A00DF0ABC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AB945DA727BEF95E00DF0ABC /* RealSounds */,
+				ABB22E5F27BC2D1200496A51 /* SampleSounds */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AB945DA727BEF95E00DF0ABC /* RealSounds */ = {
+			isa = PBXGroup;
+			children = (
+				AB945DA827BEF96A00DF0ABC /* ThatWasGreatLetsTryThatAgain */,
+			);
+			path = RealSounds;
+			sourceTree = "<group>";
+		};
+		AB945DA827BEF96A00DF0ABC /* ThatWasGreatLetsTryThatAgain */ = {
+			isa = PBXGroup;
+			children = (
+				AB945DAA27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain01.mp3 */,
+				AB945DAB27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain02.mp3 */,
+				AB945DAD27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain03.mp3 */,
+				AB945DAE27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain04.mp3 */,
+				AB945DAC27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain05.mp3 */,
+				AB945DA927BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain06.mp3 */,
+			);
+			path = ThatWasGreatLetsTryThatAgain;
 			sourceTree = "<group>";
 		};
 		ABB22E3827BC1DCB00496A51 = {
@@ -114,7 +158,7 @@
 				ABB22E5A27BC1E5A00496A51 /* Models */,
 				ABB22E5927BC1E4E00496A51 /* Managers */,
 				ABB22E6527BC2FA500496A51 /* ViewModels */,
-				ABB22E5F27BC2D1200496A51 /* SampleSounds */,
+				AB945DA627BEF94A00DF0ABC /* Sounds */,
 				ABB22E5B27BC1F0A00496A51 /* Constants.swift */,
 				ABB95DF627BCB39100FFF863 /* Secrets.swift */,
 				ABB22E4827BC1DCE00496A51 /* Assets.xcassets */,
@@ -153,7 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				ABB22E6227BC2D4600496A51 /* badum.mp3 */,
-				ABB22E6027BC2D1E00496A51 /* tada_sound.mp3 */,
+				ABB22E6027BC2D1E00496A51 /* tada.mp3 */,
+				AB945DA427BEF5F300DF0ABC /* tada2.mp3 */,
 			);
 			path = SampleSounds;
 			sourceTree = "<group>";
@@ -197,7 +242,6 @@
 				ABB22E3D27BC1DCB00496A51 /* Sources */,
 				ABB22E3E27BC1DCB00496A51 /* Frameworks */,
 				ABB22E3F27BC1DCB00496A51 /* Resources */,
-				2456B73B319C37F22D16C20B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,8 +290,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB945DB427BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain04.mp3 in Resources */,
+				AB945DB327BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain03.mp3 in Resources */,
 				ABB22E4C27BC1DCE00496A51 /* Preview Assets.xcassets in Resources */,
-				ABB22E6127BC2D1E00496A51 /* tada_sound.mp3 in Resources */,
+				AB945DB027BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain01.mp3 in Resources */,
+				AB945DB227BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain05.mp3 in Resources */,
+				AB945DAF27BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain06.mp3 in Resources */,
+				AB945DA527BEF5F300DF0ABC /* tada2.mp3 in Resources */,
+				ABB22E6127BC2D1E00496A51 /* tada.mp3 in Resources */,
+				AB945DB127BEFBBC00DF0ABC /* ThatWasGreatLetsTryThatAgain02.mp3 in Resources */,
 				ABB22E4927BC1DCE00496A51 /* Assets.xcassets in Resources */,
 				ABB22E6327BC2D4600496A51 /* badum.mp3 in Resources */,
 			);
@@ -276,23 +327,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2456B73B319C37F22D16C20B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Producer Buddy/Pods-Producer Buddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Producer Buddy/Pods-Producer Buddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Producer Buddy/Pods-Producer Buddy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -378,6 +412,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -433,6 +468,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -443,9 +479,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08CAA5451DCB2EB03CF7EF2D /* Pods-Producer Buddy.debug.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -457,9 +495,9 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,8 +507,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarshallARoss.ProducerBuddy;
 				PRODUCT_NAME = "Producer Buddy";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
@@ -481,9 +520,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1727B4FBD76C23B7817DD1A5 /* Pods-Producer Buddy.release.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_ASSET_PATHS = "";
@@ -495,9 +536,9 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,8 +548,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MarshallARoss.ProducerBuddy;
 				PRODUCT_NAME = "Producer Buddy";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";

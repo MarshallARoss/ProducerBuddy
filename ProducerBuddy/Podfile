@@ -7,6 +7,6 @@ target 'Producer Buddy' do
 
   # Pods for Producer Buddy
 
-	pod 'Google-Mobile-Ads-SDK'
+	# pod 'Google-Mobile-Ads-SDK'
 
 end

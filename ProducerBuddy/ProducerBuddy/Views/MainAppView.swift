@@ -8,14 +8,13 @@
 import SwiftUI
 import UIKit
 import AVFoundation
-import GoogleMobileAds
 
 struct MainAppView: View {
     
     @Environment(\.colorScheme) var colorScheme
         
     @ObservedObject var motion = MotionManager()
-    
+        
     let buttons = ButtonCell.buttonArray()
     
     let layout: [GridItem] = [
@@ -33,7 +32,7 @@ struct MainAppView: View {
                     Color.offWhite
                     .edgesIgnoringSafeArea(.all)
                 }
-            
+                        
             VStack {
                 
                 HeaderView()
@@ -51,13 +50,19 @@ struct MainAppView: View {
                         .padding(.top, 6)
                     }
                     .padding()
+
+                    
                 }
+                .padding(.top, -5)
                 
             }
-            BannerAdSwiftUI(adPosition: .bottom, adUnitId: Secrets.testID)
-            // .frame(maxHeight: 60)
+            
+
+          //  BannerAdSwiftUI(adPosition: .bottom, adUnitId: Secrets.testID)
+             
             
         }
+        
     }
 }
 
@@ -80,6 +85,7 @@ struct ButtonCellView: View {
                
                  Text(button.title)
                      .fontWeight(.semibold)
+                     .multilineTextAlignment(.center)
                  
              }
              .buttonStyle(SimpleButtonStyle(buttonColor: button.color))
@@ -94,25 +100,31 @@ struct MainAppView_Previews: PreviewProvider {
             MainAppView()
                 .previewDevice("iPhone 12 Pro")
                 .preferredColorScheme(.light)
-.previewInterfaceOrientation(.landscapeLeft)
             
             MainAppView()
                 .previewDevice("iPhone 12 Pro")
                 .preferredColorScheme(.dark)
+            
+            /*
 .previewInterfaceOrientation(.portrait)
             MainAppView()
                 .preferredColorScheme(.dark)
                 .previewDevice("iPhone 8")
 .previewInterfaceOrientation(.portrait)
             MainAppView()
+                .preferredColorScheme(.dark)
+                .previewDevice("iPhone 8")
+                .previewInterfaceOrientation(.portraitUpsideDown)
+            MainAppView()
                 .previewDevice("iPhone 13 Pro Max")
-.previewInterfaceOrientation(.landscapeRight)
+.previewInterfaceOrientation(.portraitUpsideDown)
             MainAppView()
                 .previewDevice("iPad Air (4th generation)")
 .previewInterfaceOrientation(.landscapeLeft)
             MainAppView()
-                .previewDevice("iPad Air (4th generation)")
-        }
+                .previewDevice("iPad Pro (12.9-inch) (5th generation)")
+    */
+             }
     }
 }
 

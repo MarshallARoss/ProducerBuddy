@@ -18,7 +18,11 @@ class SoundManager: ObservableObject {
     
     func playSound(sound: SoundOption) {
         
-        guard let url = Bundle.main.url(forResource: sound.rawValue, withExtension: ".mp3") else {return}
+        guard let randomSoundOption = sound.sounds.randomElement() else {return}
+        
+        let resource = randomSoundOption
+        
+        guard let url = Bundle.main.url(forResource: resource, withExtension: ".mp3") else {return}
         
         
         do {
@@ -39,8 +43,27 @@ class SoundManager: ObservableObject {
     }
 }
 
-
+//Name each file one of these and vice versa
 enum SoundOption: String {
-    case tada = "tada_sound"
+    case tada
     case badum
+    case ThatWasGreatLetsTryThatAgain
+    
+    var sounds: [String] {
+        switch self {
+        case .tada:
+            return ["tada", "tada2"]
+        case .badum:
+            return ["badum"]
+        case .ThatWasGreatLetsTryThatAgain:
+            return ["ThatWasGreatLetsTryThatAgain01",
+                    "ThatWasGreatLetsTryThatAgain02",
+                    "ThatWasGreatLetsTryThatAgain03",
+                    "ThatWasGreatLetsTryThatAgain04",
+                    "ThatWasGreatLetsTryThatAgain05",
+                    "ThatWasGreatLetsTryThatAgain06"]
+        }
+    }
 }
+
+

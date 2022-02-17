@@ -25,17 +25,26 @@ struct HeaderView: View {
                 }
                     
             
-          Link("PRODUCER BUDDY", destination: URL(string: "https://moosecatrecording.com")!)
-                .foregroundColor(Color(colorScheme == .dark ? .white : .black))
-                .font(.title)
-                .opacity(0.5)
-                .padding(.top)
-            
-            
+            VStack {
+
+                Link(destination: URL(string: "https://moosecatrecording.com")!) {
+                    VStack {
+                        Image("MooseCatLogo")
+                        
+                        Text("PRODUCER BUDDY")
+                            .foregroundColor(Color(colorScheme == .dark ? .white : .black))
+                            .font(.title)
+                            .opacity(0.5)
+                    }
+                }
+            }       
         }
-        .shadow(color: colorScheme == .dark ? Color.black.opacity(0.2) : Color.white.opacity(0.2), radius: 10, x: 10, y: 10)
+        .frame(maxHeight: 120)
+        .background(
+            Color.offWhite
         .shadow(color: Color.black.opacity(0.7), radius: 10, x: -5, y: -5)
-        .frame(minHeight: 20, maxHeight: 30)
+        .shadow(color: colorScheme == .dark ? Color.black.opacity(0.2) : Color.white.opacity(0.2), radius: 10, x: 10, y: 10)
+        )
     }
 }
 

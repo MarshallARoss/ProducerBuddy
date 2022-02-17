@@ -5,6 +5,9 @@
 //  Created by Marshall  on 2/15/22.
 //
 
+/*
+ 
+ 
 import SwiftUI
 import GoogleMobileAds
 
@@ -14,6 +17,9 @@ struct BannerAdSwiftUI: View {
     @State var height: CGFloat = 0 //Height of ad
     @State var width: CGFloat = 0 //Width of ad
     @State var adPosition: AdPosition
+    
+    @State var adOpacity = CGFloat(0.0)
+   
     let adUnitId: String
     
     init(adPosition: AdPosition, adUnitId: String) {
@@ -31,20 +37,26 @@ struct BannerAdSwiftUI: View {
             if adPosition == .bottom {
                 Spacer() //Pushes ad to bottom
             }
-            
+                        
             //Ad
             BannerAd(adUnitId: adUnitId)
+                .offset(y: 50 - adOpacity*50)
+                .opacity(adOpacity)
                 .frame(width: width, height: height, alignment: .center)
                 .onAppear {
                     //Call this in .onAppear() b/c need to load the initial frame size
                     //.onReceive() will not be called on initial load
                     setFrame()
+
                 }
                 //Changes the frame of the ad whenever the device is rotated.
                 //This is what creates the adaptive ad
                 .onReceive(NotificationCenter.default.publisher(for: UIDevice.orientationDidChangeNotification)) { _ in
-                    setFrame()
+                        setFrame()
+                    
                 }
+                
+
             
             if adPosition == .top {
                 Spacer() //Pushes ad to top
@@ -53,18 +65,25 @@ struct BannerAdSwiftUI: View {
     }
     
     func setFrame() {
+        
+        adOpacity = 0.0
       
         //Get the frame of the safe area
-        let safeAreaInsets = UIApplication.shared.windows.first(where: { $0.isKeyWindow })?.safeAreaInsets ?? .zero
+        let safeAreaInsets = UIEdgeInsets()
+       
         
         let frame = UIScreen.main.bounds.inset(by: safeAreaInsets)
-        
+                
         //Use the frame to determine the size of the ad
         let adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(frame.width)
         
         //Set the ads frame
-        self.width = adSize.size.width
+        withAnimation(.easeOut(duration: 2).delay(4)) {
+            adOpacity = 1.0
+        }
+        
         self.height = adSize.size.height
+        self.width = adSize.size.width
     }
 }
 
@@ -93,4 +112,6 @@ struct BannerAdSwiftUI_Previews: PreviewProvider {
         BannerAdSwiftUI(adPosition: .bottom, adUnitId: "ca-app-pub-3940256099942544/2934735716")
     }
 }
+
+ */
 

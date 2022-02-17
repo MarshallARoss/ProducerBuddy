@@ -7,12 +7,13 @@
 
 import SwiftUI
 import AppTrackingTransparency
-import GoogleMobileAds
+//import GoogleMobileAds
 
 
 @main
 struct ProducerBuddyApp: App {
     
+    /*
     init() {
            if ATTrackingManager.trackingAuthorizationStatus == .notDetermined {
                //User has not indicated their choice for app tracking
@@ -26,6 +27,7 @@ struct ProducerBuddyApp: App {
                }
            }
     }
+     */
     
     var body: some Scene {
         WindowGroup {
@@ -34,6 +36,7 @@ struct ProducerBuddyApp: App {
     }
 }
 
+/*
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
@@ -43,3 +46,4 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         return true
     }
 }
+*/
