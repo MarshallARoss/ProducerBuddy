@@ -2,7 +2,7 @@
 
 <img width="200" alt="Producer Buddy Logo" src="https://user-images.githubusercontent.com/20109435/154178234-7e320c6b-3595-477f-aa6f-59873ef560f7.png">
 
-The results of a one day build challenge! Check it out and follow the band [@CarlyandTheUniverse!](https://open.spotify.com/artist/4K5Oety3IR7LcXNBI9I5pd?go=1&sp_cid=832088137704b456efc1b581a55076dd) 
+The results of a one day build challenge for Moosecat Recording! Check it out and follow the band [@CarlyandTheUniverse!](https://open.spotify.com/artist/4K5Oety3IR7LcXNBI9I5pd?go=1&sp_cid=832088137704b456efc1b581a55076dd) 
 
 ## Features
 - SwiftUI
